@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="sidebar">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Admin Dashboard</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="sidebar">
+				<div class="logo"><img src="images/view-dashboard.svg" alt="logo" />Dashboard</div>
+				<div class="tabs">
+					<img src="images/home-account.svg" alt="home" />
+					<div class="item">Home</div>
+					<img src="images/card-account-details.svg" alt="profile" />
+					<div class="item">Profile</div>
+					<img src="images/message-outline.svg" alt="message" />
+					<div class="item">Messages</div>
+					<img src="images/history.svg" alt="history" />
+					<div class="item">History</div>
+					<img src="images/calendar-check.svg" alt="task" />
+					<div class="item">Tasks</div>
+					<img src="images/account-group.svg" alt="home" />
+					<div class="item">Communities</div>
+				</div>
+				<div class="settings">
+					<img src="images/cog.svg" alt="setting" />
+					<div class="item">Settings</div>
+					<img src="images/help-box.svg" alt="support" />
+					<div class="item">Support</div>
+					<img src="images/security.svg" alt="security" />
+					<div class="item">Privacy</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="search">
+					<img src="images/magnify.svg" alt="search-button" />
+					<input type="text" />
+				</div>
+				<div class="login-info">
+					<img src="images/bell-ring.svg" alt="bell" />
+					<img class="login-claw" src="images/theklaw.jpg" alt="kawhi" />
+					<p>Morgan Oakley</p>
+				</div>
 
-    </div>
-    <div class="header">
-
-    </div>
-    <div class="projects">
-
-    </div>
-    <div class="notifications">
-
-    </div>
-</body>
+				<div class="user-info">
+					<img src="images/theklaw.jpg" alt="kawhi" />
+					<p class="welcome-msg">Hi there,</p>
+					<p class="profile-name">Morgan Oakley (@morgan)</p>
+				</div>
+				<div class="buttons">
+					<button>New</button>
+					<button>Upload</button>
+					<button>Share</button>
+				</div>
+			</div>
+			<div class="projects">
+                <div class="project">Something</div>
+                <div class="project">Something</div>
+                <div class="project">Something</div>
+                <div class="project">Something</div>
+                <div class="project">Something</div>
+                <div class="project">Something</div>
+            </div>
+			<div class="notifications"></div>
+		</div>
+	</body>
 </html>
