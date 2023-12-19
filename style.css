@@ -265,8 +265,30 @@ body, html {
 
 .trending, .announcements {
     background-color: #2B7A78;
-    padding: 30px 30px 10px 30px;
+    padding: 10px 30px 10px 30px;
     border-radius: 15px;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: auto;
+
+}
+
+.announcements + .annon {
+    
+    border-bottom: 2px solid #FEFFFF;
+
+}
+
+.annon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-bottom: 2px solid #FEFFFF;
+    align-self: center;
+    gap: 5px;
 }
 
 .trending {
@@ -275,11 +297,24 @@ body, html {
 }
 
 .trending-profile > img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    grid-row: 1/3;
+    align-self: center;
 }
 
+.trending-profile {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 1fr;
+    gap: 0px 15px;
+
+}
+
+.trending-profile > img + p {
+    align-self: end;
+}
 
 
 
